@@ -1,0 +1,62 @@
+site_name: Narasimman's Portfolio
+site_url: https://narasimman-docs.github.io/narasimman-docs/
+site_description: Personal portfolio and documentation site
+site_author: Narasimman
+
+repo_url: https://github.com/narasimman-docs/narasimman-docs
+repo_name: narasimman-docs/narasimman-docs
+
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Resume: resume.md
+  - API Docs:
+      - Overview: api-docs/index.md
+      - Sample API: api-docs/sample-api.md
+  - Product Docs:
+      - Overview: product-docs/index.md
+      - Getting Started: product-docs/getting-started.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/narasimman-docs
