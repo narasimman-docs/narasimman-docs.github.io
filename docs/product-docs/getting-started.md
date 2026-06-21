@@ -39,7 +39,7 @@ Labels help you filter and report on tasks later.
 
 ## Getting Started with ChatGPT
 
-<video width="100%" controls title="ChatGPT Getting Started">
-  <source src="../assets/videos/ChatGpt-getting-started.mp4" type="video/mp4">
+<video width="100%" controls title="ChatGPT Getting Started1">
+  <source src="../../assets/videos/ChatGpt-getting-started.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
