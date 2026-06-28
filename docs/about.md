@@ -10,5 +10,5 @@ I'm a technical writer with experience creating clear, structured documentation 
 
 ## Contact
 - GitHub: [narasimman-docs](https://github.com/narasimman-docs)
-- Email: *(add your email)*
-- LinkedIn: *(add your LinkedIn)*
+- Email: narasimmank14@gmail.com
+- LinkedIn: https://www.linkedin.com/in/narasimman-docs/
